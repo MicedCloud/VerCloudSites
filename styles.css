@@ -1,0 +1,68 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Black */
+    color: #ffffff; /* White text */
+}
+
+header {
+    background-color: #000000; /* Full black for header */
+    padding: 20px 0;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    filter: brightness(0.8); /* Reducing brightness to keep visibility */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #b766ff; /* Purple */
+}
+
+p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: #000000; /* Full black for footer */
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff; /* White */
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #b766ff; /* Purple on hover */
+}
+
+/* styles.css */
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #b766ff; /* Purple */
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #8a3ab9; /* Darker purple on hover */
+}
